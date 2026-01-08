@@ -6,12 +6,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @ResponseBody
-public class StudentController {
-    @GetMapping("/student")
+
+public class ProductController {
+    @GetMapping("/product")
     public String getStudentDetails(){
 
-        return "<h1>Rashad </h1> ";
+        return "This is a Product page";
     }
-
 }
-
