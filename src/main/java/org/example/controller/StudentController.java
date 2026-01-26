@@ -10,7 +10,7 @@ public class StudentController {
     @GetMapping("/student")
     public String getStudentDetails(){
 
-        return "<h1>Rashad </h1> ";
+        return "This is a Student page<h1>Rashad </h1><br> ";
     }
 
 }
